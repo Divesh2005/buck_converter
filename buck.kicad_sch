@@ -1591,7 +1591,7 @@
 		(at 50.8 165.1)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "27c5c054-66d9-48a2-b2a7-05a87313fee8")
+		(uuid "20d1c790-f733-49c9-b184-68a3cc8ea55e")
 	)
 	(junction
 		(at 143.51 129.54)
@@ -1810,16 +1810,6 @@
 			(type default)
 		)
 		(uuid "2318d727-6534-4329-a979-946f48b431bc")
-	)
-	(wire
-		(pts
-			(xy 64.77 176.53) (xy 64.77 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "23950648-9632-4ecd-b652-607d13426032")
 	)
 	(wire
 		(pts
@@ -2373,7 +2363,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 165.1) (xy 64.77 168.91)
+			(xy 63.5 165.1) (xy 63.5 167.64)
 		)
 		(stroke
 			(width 0)
@@ -2523,7 +2513,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 189.23) (xy 64.77 195.58)
+			(xy 63.5 175.26) (xy 63.5 181.61)
 		)
 		(stroke
 			(width 0)
@@ -2553,7 +2543,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 165.1) (xy 50.8 165.1)
+			(xy 63.5 165.1) (xy 50.8 165.1)
 		)
 		(stroke
 			(width 0)
@@ -2762,7 +2752,7 @@
 		(uuid "dd3b058d-f8e1-4cbd-bf04-7b416fbd2a15")
 	)
 	(label "Vout"
-		(at 64.77 165.1 0)
+		(at 63.5 165.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2976,88 +2966,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L")
-		(at 64.77 172.72 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0f8b1ab1-3621-4b71-8344-dc1554c1d11a")
-		(property "Reference" "L2"
-			(at 66.04 171.4499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1mH"
-			(at 66.04 173.9899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 64.77 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 64.77 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Inductor"
-			(at 64.77 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "d0fb10a6-d1c5-4489-adf7-e297ca1ea8cd")
-		)
-		(pin "1"
-			(uuid "4c6139e7-a6d4-4f46-a26d-edc3a0b5ef2b")
-		)
-		(instances
-			(project "buck"
-				(path "/7191e9ae-ac69-4d50-90dd-2471411688c3"
-					(reference "L2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Simulation_SPICE:0")
 		(at 175.26 111.76 0)
 		(unit 1)
@@ -3137,7 +3045,7 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:0")
-		(at 64.77 195.58 0)
+		(at 63.5 181.61 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3145,10 +3053,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "148fb8c3-dca2-4a15-b1bd-41d82f6fe28c")
 		(property "Reference" "#GND06"
-			(at 64.77 200.66 0)
+			(at 63.5 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3159,7 +3066,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 64.77 193.04 0)
+			(at 63.5 179.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3169,7 +3076,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 64.77 195.58 0)
+			(at 63.5 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3180,7 +3087,7 @@
 			)
 		)
 		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Circuit_elements__device"
-			(at 64.77 205.74 0)
+			(at 63.5 191.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3191,7 +3098,7 @@
 			)
 		)
 		(property "Description" "0V reference potential for simulation"
-			(at 64.77 203.2 0)
+			(at 63.5 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3591,7 +3498,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 64.77 185.42 0)
+		(at 63.5 171.45 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3602,7 +3509,7 @@
 		(fields_autoplaced yes)
 		(uuid "246aca1c-ff23-406f-b736-3a9672647a38")
 		(property "Reference" "R1"
-			(at 67.31 184.1499 0)
+			(at 66.04 170.1799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3613,7 +3520,7 @@
 			)
 		)
 		(property "Value" "5k"
-			(at 67.31 186.6899 0)
+			(at 66.04 172.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3624,7 +3531,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 62.992 185.42 90)
+			(at 61.722 171.45 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3635,7 +3542,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 64.77 185.42 0)
+			(at 63.5 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3646,7 +3553,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 64.77 185.42 0)
+			(at 63.5 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
